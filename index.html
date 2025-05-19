@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="box">
+        <h1>BMI Calculator</h1>
+        <form id="bmiForm">
+            <label for="system">Select Measurement System</label>
+            <select id="system" name="system">
+                <option value="metric">Metric</option>
+                <option value="imperial">Imperial</option>
+            </select>
+            <br>
+            <br>
+            <label for="height" id="heightLabel"></label>
+            <input type="text" id="height" name="height">
+            <br>
+            <br>
+            <label for="weight" id="weightLabel"></label>
+            <input type="text" id="weight" name="weight">
+            <br>
+            <br>
+            <button id="calculate" type="button" class="btn">Calculate</button>
+        </form>
+        <p id="pf"></p>
+        <p id="desc"></p>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>

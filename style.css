@@ -1,0 +1,105 @@
+/*
+body{
+    background:linear-gradient(rgb(241, 143, 156),rgb(222, 144, 238));
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: "Martian Mono", monospace;
+    font-weight: 200;
+    font-size: 1em;
+    border-style:solid;
+    border-radius: 10px;
+    padding:5px;
+}
+    */
+h1{
+    font-size:2em
+}
+
+body{
+    background-color:rgb(255, 229, 211);
+    display:flex;
+    overflow:hidden;
+}
+
+#box{
+    background:rgb(241, 143, 156);
+
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+
+    font-family: "Martian Mono", monospace;
+    width:500px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1em;
+    border-style:solid;
+    border-radius: 10px;
+    padding:5px;
+}
+
+/*Calculate Buttone*/
+#calculate {
+    background-color: #db4d6c;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+#calculate:hover {
+    background-color: #c54662;
+}
+
+#calculate:active {
+    transform: scale(0.97);
+}
+
+/*System Drop-downs*/
+#system {
+    background-color: #db4d6c;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+#system:hover {
+    background-color: #c54662;
+}
+
+#system:active {
+    transform: scale(0.97);
+}
+
+/*FIll in forms*/
+#height{
+    font-family: "Martian Mono", monospace;
+    padding: 10px;
+    border-radius:10px;
+    border:none;
+    background-color: #db4d6c;
+    color: white;
+}
+#height:focus{
+    border:none;
+}
+
+#weight{
+    font-family: "Martian Mono", monospace;
+    padding: 10px;
+    border-radius:10px;
+    border:none;
+    background-color: #db4d6c;
+    color: white;
+}
+
+#pf{
+    font-weight:500;
+}
